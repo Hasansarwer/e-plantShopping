@@ -280,7 +280,7 @@ const handleAddToCart = (product) =>{
         </div>
         {!showCart? (
         <div className="product-grid">
-            {console.log(plantsArray)}
+            
             {plantsArray.map((category, index)=>(
                 <div key={index}>
                     <h1><div>{category.category}</div></h1>
