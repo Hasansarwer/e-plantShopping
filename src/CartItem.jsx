@@ -38,6 +38,8 @@ const CartItem = ({ onContinueShopping }) => {
   };
 
   const handleRemove = (item) => {
+    const {name} = item;
+    dispatch(removeItem(name));
   };
 
   // Calculate total cost based on quantity for an item
